@@ -1,12 +1,68 @@
-# React + Vite
+# Intern Profile Management
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and modular web application for managing intern profiles using React and Vite.
 
-Currently, two official plugins are available:
+## 🔧 Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Frontend**: React.js (with JSX)
+- **Bundler**: Vite
+- **Styling**: CSS
+- **Linting**: ESLint
 
-## Expanding the ESLint configuration
+## 📁 Folder Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```
+Intern-Profile-Management/
+│
+├── public/ # Static files
+├── src/ # Source code
+│ ├── assets/ # Images or media files (if any)
+│ ├── components/ # Reusable React components
+│ │ └── InternProfileManagementDashboard.jsx
+│ ├── utils/ # Utility components or helper functions
+│ │ ├── InternData.jsx
+│ │ └── StatusColor.jsx
+│ ├── App.css # Main CSS file
+│ ├── App.jsx # Main App component
+│ └── main.jsx # React DOM rendering entry point
+│
+├── .gitignore
+├── eslint.config.js # ESLint configuration
+├── index.html # HTML template
+├── package.json
+├── package-lock.json
+├── vite.config.js # Vite configuration
+└── README.md
+```
+
+
+## 🚀 Features
+
+- Dashboard-style interface to manage intern profiles
+- Status color-coded representation
+- Intern data loaded from utility files
+- Modular and clean component structure
+
+## 🛠️ Getting Started
+
+### Prerequisites
+
+Make sure you have the following installed:
+
+- Node.js
+- npm (Node Package Manager)
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/abhisheky696/Intern-Profile-Management.git
+   cd Intern-Profile-Management
+    npm install
+    npm run dev
+2. Open your browser and visit http://localhost:5173 to view the app.
+
+
+
+Made with ❤️ by Abhishek Yadav
+
